@@ -14,30 +14,30 @@
 
 *Code Structure: 
 
-├── src/                     # Code files
+1 src/                     # Code files
 
-  │   ├── env.py               # Custom environment class (FilterDesignEnv)
+  1.1 env.py               # Custom environment class (FilterDesignEnv)
   
-  │   ├── callback.py          # Reward logging and response plotting callback
+  1.2 callback.py          # Reward logging and response plotting callback
   
-  │   ├── utils.py             # Helper functions like `reward_function` and `estimate_cutoff_frequency`
+  1.3 utils.py             # Helper functions like `reward_function` and `estimate_cutoff_frequency`
   
-  │   └── main.py              # Main training script to run the DQN agent
+  1.4 main.py              # Main training script to run the DQN agent
 
-├── models/                  # Directory to save trained models
+2 models/                  # Directory to save trained models
 
-  │   ├── checkpoints/         # Optional: save periodic checkpoints here
+  2.1 checkpoints/         # Optional: save periodic checkpoints here
 
-├── data/                    # Stores data generated during simulations
+3 data/                    # Stores data generated during simulations
 
-  │   ├── netlists/            # SPICE netlists generated for each episode
+  3.1 netlists/            # SPICE netlists generated for each episode
 
-  │   └── output/              # Store output logs from simulations here
+  3.2 output/              # Store output logs from simulations here
 
-├── notebooks/               # Jupyter notebooks for experiments and exploratory analysis
+4 notebooks/               # Jupyter notebooks for experiments and exploratory analysis
 
-├── requirements.txt         # Dependencies for the project
+5 requirements.txt         # Dependencies for the project
 
-├── README.md                # Main project documentation
+6 README.md                # Main project documentation
 
-└── .gitignore               # Files and directories to ignore in GitHub
+7 .gitignore               # Files and directories to ignore in GitHub
