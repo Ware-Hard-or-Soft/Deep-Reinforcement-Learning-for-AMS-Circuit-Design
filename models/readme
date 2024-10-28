@@ -1,0 +1,2 @@
+DQN is used directly from Open AI gym with MlpPolicy
+checkpoints/         # Optional: save periodic checkpoints here
