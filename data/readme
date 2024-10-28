@@ -1,0 +1,2 @@
+netlists/            # SPICE netlists generated for each episode
+output/              # Store output logs from simulations here
