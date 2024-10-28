@@ -12,7 +12,8 @@
 
 *Features and Roadmap: Guide the design of AMS circuits for better PPAR, can be generalized to other AMS circuits by inputting the netlist and reward funciton
 
-*Code Structure: .
+*Code Structure: 
+
 ├── src/                     # Code files
 
 │   ├── env.py               # Custom environment class (FilterDesignEnv)
