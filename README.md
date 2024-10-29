@@ -1,20 +1,20 @@
-*Project Overview: A reinforcement learning-based active low-pass filter design optimizer.
+# Project Overview: A reinforcement learning-based active low-pass filter design optimizer.
 
-*Installation: Steps for setting up the environment, including requirements.txt.
+## Installation: Steps for setting up the environment, including requirements.txt.
 
-*Usage: 
-(1)Input the netlist or generate by build in funciton in env.py
-(2)Running the analog simualtion by ngspice
-(3)Setting the reward function based on PPAR metric
-(4)Check the real time result via callback
+## Usage: 
+* Input the netlist or generate by build in funciton in env.py
+* Running the analog simualtion by ngspice
+* Setting the reward function based on PPAR metric
+* Check the real time result via callback
 
-*Similar resuls/notebooks are provided
+## Similar resuls/notebooks are provided
 
-*Features and Roadmap: Guide the design of AMS circuits for better PPAR, can be generalized to other AMS circuits by inputting the netlist and reward funciton
+* Features and Roadmap: Guide the design of AMS circuits for better PPAR, can be generalized to other AMS circuits by inputting the netlist and reward funciton
 
-*Code Structure: 
+## Code Structure: 
 
-1 src/                     # Code files
+* src/                     # Code files
 
   1.1 env.py               # Custom environment class (FilterDesignEnv)
   
@@ -24,20 +24,20 @@
   
   1.4 main.py              # Main training script to run the DQN agent
 
-2 models/                  # Directory to save trained models
+* models/                  # Directory to save trained models
 
   2.1 checkpoints/         # Optional: save periodic checkpoints here
 
-3 data/                    # Stores data generated during simulations
+* data/                    # Stores data generated during simulations
 
   3.1 netlists/            # SPICE netlists generated for each episode
 
   3.2 output/              # Store output logs from simulations here
 
-4 notebooks/               # Jupyter notebooks for experiments and exploratory analysis
+* notebooks/               # Jupyter notebooks for experiments and exploratory analysis
 
-5 requirements.txt         # Dependencies for the project
+* requirements.txt         # Dependencies for the project
 
-6 README.md                # Main project documentation
+* README.md                # Main project documentation
 
-7 .gitignore               # Files and directories to ignore in GitHub
+* .gitignore               # Files and directories to ignore in GitHub
