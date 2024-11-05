@@ -30,14 +30,14 @@
 
 * data/                    -- Stores data generated during simulations
 
-  3.1 netlists/            # SPICE netlists generated for each episode
+  3.1 netlists/            -- SPICE netlists generated for each episode
 
-  3.2 output/              # Store output logs from simulations here
+  3.2 output/              -- Store output logs from simulations here
 
-* notebooks/               # Jupyter notebooks for experiments and exploratory analysis
+* notebooks/               -- Jupyter notebooks for experiments and exploratory analysis
 
-* requirements.txt         # Dependencies for the project
+* requirements.txt         -- Dependencies for the project
 
-* README.md                # Main project documentation
+* README.md                -- Main project documentation
 
 * .gitignore               # Files and directories to ignore in GitHub
