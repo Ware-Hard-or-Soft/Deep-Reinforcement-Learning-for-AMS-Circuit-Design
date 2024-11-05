@@ -10,7 +10,7 @@
 
 ## Similar resuls/notebooks are provided
 
-* Features and Roadmap: Guide the design of AMS circuits for better PPAR, can be generalized to other AMS circuits by inputting the netlist and reward funciton
+* Features and Roadmap: Guide the design of AMS circuits for better PPAR, active low-pass filter exampled there and can be generalized to other AMS circuits by inputting the netlist and reward funciton
 
 ## Code Structure: 
 
