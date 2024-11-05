@@ -1,4 +1,4 @@
-# Project Overview: A reinforcement learning-based active low-pass filter design optimizer.
+# Project Overview: A reinforcement learning-based AMS design optimizer.
 
 ## Installation: Steps for setting up the environment, including requirements.txt.
 
